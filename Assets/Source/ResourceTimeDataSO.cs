@@ -9,6 +9,8 @@ namespace NuclearReactorSystem
     public class ResourceTimeDataSO : ScriptableObject
     {
         [SerializeField] private List<ResourceTimeData> _resources;
+
+        public List<ResourceTimeData> Resources => _resources;
     }
 
     [Serializable]

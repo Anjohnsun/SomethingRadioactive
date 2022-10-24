@@ -13,15 +13,15 @@ MonoBehaviour:
   m_Name: ResourceTime
   m_EditorClassIdentifier: 
   _resources:
-  - _resource: 0
-    _decayTime: 0
-    _enrichmentTime: 0
   - _resource: 1
-    _decayTime: 0
-    _enrichmentTime: 0
+    _decayTime: 1
+    _enrichmentTime: 5
+  - _resource: 0
+    _decayTime: 5
+    _enrichmentTime: 1
   - _resource: 2
-    _decayTime: 0
-    _enrichmentTime: 0
+    _decayTime: 2
+    _enrichmentTime: 4
   - _resource: 3
-    _decayTime: 0
-    _enrichmentTime: 0
+    _decayTime: 2
+    _enrichmentTime: 2
